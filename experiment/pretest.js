@@ -89,24 +89,61 @@
 
 
      const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
-            answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
+             question: "1.At which voltage the image of a conducting sample is usually imaged? ", ///// Write the question inside double quotes
+             answers: {
+                 a: "200 V", ///// Write the option 1 inside double quotes
+                 b: "440 V", ///// Write the option 2 inside double quotes
+                 c: "2,000 V", ///// Write the option 3 inside double quotes
+                 d: "20,000 V"
+             },
+             correctAnswer: "d" ///// Write the correct option inside double quotes
+         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+         {
+             question: "2.Which of the following samples gets focused even at the higher voltage (kV)?", ///// Write the question inside double quotes
+             answers: {
+                 a: "Insulating", ///// Write the option 1 inside double quotes
+                 b: "Conducting", ///// Write the option 2 inside double quotes
+                 c: "Semiconductor", ///// Write the option 3 inside double quotes
+                 d: "Biological" ///// Write the option 4 inside double quotes
+             },
+             correctAnswer: "b" ///// Write the correct option inside double quotes
+         }, ///// To add more questions, copy the section below 
+         ///// this line
+
+         {
+             question: "3. _________________ is required for observing insulating samples in SEM?<br>Note: gold coating is also very routinely used.",
+             answers: {
+                 a: "polymer coating",
+                 b: "ceramic coating",
+                 c: "carbon coating",
+                 d: "washing"
+             },
+             correctAnswer: "c"
+         },
 
 
+
+         {
+             question: "4.Which of the following WILL NOT be suitable for imaging samples in SEM?",
+             answers: {
+                 a: "Pt-coating",
+                 b: "Gold-coating",
+                 c: "Carbon-coating",
+                 d: "SiO<sub>2</sub> coating"
+             },
+             correctAnswer: "d"
+         },
+         {
+             question: "5.Which of the following will NOT matter when imaging insulating samples:",
+             answers: {
+                 a: "Density of insulating sample",
+                 b: "Accelerating voltage being used",
+                 c: "Time-duration being used for imaging",
+                 d: "Level of vacuum being used during imaging"
+             },
+             correctAnswer: "a"
+         },
 
      ];
 

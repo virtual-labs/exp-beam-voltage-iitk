@@ -89,24 +89,44 @@
 
 
     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1.Quality of imaging on an insulating sample can be enhanced by:", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "Increasing the pressure of chamber (lower vacuum)", ///// Write the option 1 inside double quotes
+                b: "Decreasing the pressure of chamber (higher vacuum)", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+        {
+            question: "2.Quality of imaging on an insulating sample will deteriorate when using:", ///// Write the question inside double quotes
+            answers: {
+                a: "Low accelerating voltage of electron beam ", ///// Write the option 1 inside double quotes
+                b: "High accelerating voltage of electron beam ", ///// Write the option 2 inside double quotes
 
+            },
+            correctAnswer: "a" ///// Write the correct option inside double quotes
+        }, ///// To add more questions, copy the section below 
+        ///// this line
 
+        {
+            question: "3.The beam damage on a polymeric sample will be high at ___________ accelerating voltage and ________ beam size.",
+            answers: {
+                a: "low accelerating voltage and smaller spot size",
+                b: "low accelerating voltage and bigger spot size",
+                c: "high accelerating voltage and smaller spot size",
+                d: "high accelerating voltage and bigger spot size"
+            },
+            correctAnswer: "d"
+        },
+      
+        {
+            question: "4.The following image is taken  _______________ conductive coating on the polymeric sample.<img src='images/post6.jpg'>",
+            answers: {
+                a: "with",
+                b: "without"
+            },
+            correctAnswer: "b"
+        },
         
     ];
 

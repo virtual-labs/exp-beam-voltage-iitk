@@ -32,7 +32,7 @@ Biological samples and polymeric samples may undergo beam damage during imaging.
   <source src="images/exp3-conducting_insulating.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video><br>
-Fig:Video on Effect of Beam voltage on conducting and insulating samples
+Video on Effect of Beam voltage on conducting and insulating samples
 
 
  

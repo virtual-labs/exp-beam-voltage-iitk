@@ -2,7 +2,7 @@ Going back to basics of electron microscopy, we can recollect that an electron b
 <br><br>
 
 <img src="images/f1.jpg" height="500px" width="700px"><br>
-Fig. 1: Phenomenon showing a) repelling of incident electrons on an insulating surface, and <br> b) conduction of electron on conducting/coated surface.<br><br>
+Fig. 1: Phenomenon showing a) repelling of incident electrons on an insulating surface, and  b) conduction of electron on conducting/coated surface.<br><br>
 
 Even when the sample is conducting, the discharge from sample surface to the sample holder may occur through pinning screws, which may be an in-efficient carrier of charge. Thus, a copper-tape or a carbon-tape is routinely crossed over the sample (minimally affecting the region of interest) in order to avoid the problem of sample charging. The area of this conducting tape crossing over the sample becomes non-useful for imaging purpose.<br> 
 It may also be appreciated by the user that when the image is zoomed-up, a smaller area is being scanned. In other terms, the charge of incident beam should be carried out at a higher rate by the sample at higher magnification. So, if a sample is imaged at higher magnification first, and then we come down to a little lower magnification, a loss in contrast may appear eliciting beam-damage of that region (Fig. 2). Thus, selection of appropriate region for imaging, and utilising appropriate beam parameters are critical in procuring good images of the microstructural features.

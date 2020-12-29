@@ -1,4 +1,17 @@
-Going back to basics of electron microscopy, we can recollect that an electron beam is incident on the sample for imaging. As we know that electron beam comprises of electrons, which are negatively charged. This negative charge requires a conducting material for the its transport to the drain (for discharging), otherwise electrons will keep building up on the sample surface and will repel the incoming beam of electrons (Fig. 1a). Therefore, usually a conducting coating of gold or carbon is usually deposited on the insulating surfaces (typically for polymers and ceramics) to provide a conducting surface (Fig. ab). Carbon and gold, both satisfy the purpose of providing a thin layer of conducting film on the sample surface for an effective imaging. Carbon is much cheaper, but the carbon coating system is dirty (as it is black and produces char on the deposition jar that covers the system). Gold coating, on the other hand is costly. For biological samples, it is better to coat the samples with gold to avoid any interference from carbon from coating to the carbon from the biological material that may need to be analysed. For powder particles, usually a double-sided carbon tape is used. We can appreciate that that particles (say spherical particles) will only have limited contact area with conducting carbon tape it is sitting on (say point contact), and even after gold coating, the shadow effect during sputtering may not cover the bottom region of the particle, and may not provide complete conductivity path. In that case, the particles may not be able to dissipate the charge and will show sample charging.
+<div><div style="float:left;width:55%;text-align: justify;text-justify: inter-word; margin-right:40px;">Going back to basics of electron microscopy, we can recollect that an electron beam is incident on the sample for imaging. As we know that electron beam comprises of electrons, which are negatively charged. This negative charge requires a conducting material for the its transport to the drain (for discharging), otherwise electrons will keep building up on the sample surface and will repel the incoming beam of electrons (Fig. 1a). Therefore, usually a conducting coating of gold or carbon is usually deposited on the insulating surfaces (typically for polymers and ceramics) to provide a conducting surface (Fig. ab). Carbon and gold, both satisfy the purpose of providing a thin layer of conducting film on the sample surface for an effective imaging. Carbon is much cheaper, but the carbon coating system is dirty (as it is black and produces char on the deposition jar that covers the system). Gold coating, on the other hand is costly. For biological samples, it is better to coat the samples with gold to avoid any interference from carbon from coating to the carbon from the biological material that may need to be analysed. For powder particles, usually a double-sided carbon tape is used.</div>
+<!-- <div style="float:left;width:40%;border: solid 1 px black;"><video width="320" height="240" controls>
+  <source src="images/exp3-conducting_insulating.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video><br>
+Video on Effect of Beam voltage on conducting and insulating samples<br></div> -->
+<div style="float:left;width:40%;border: solid 1 px black;">
+<video width="320" height="240" controls>
+  <source src="images/exp3-conducting_insulating.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video><br>Video on Effect of Beam voltage on conducting and insulating samples</div>
+
+</div>
+We can appreciate that that particles (say spherical particles) will only have limited contact area with conducting carbon tape it is sitting on (say point contact), and even after gold coating, the shadow effect during sputtering may not cover the bottom region of the particle, and may not provide complete conductivity path. In that case, the particles may not be able to dissipate the charge and will show sample charging.
 <br><br>
 
 <img src="images/f1.jpg" height="500px" width="700px"><br>
@@ -28,11 +41,7 @@ Figure 3: a) Image of uncoated insulating samples showing charging on the surfac
 
 ### Note:
 Biological samples and polymeric samples may undergo beam damage during imaging. Sample burning or evaporation may also occur upon exposure to electron beam. The build-up of volatile gases may also be very deleterious to the instrument itself. Thus, it is advisable to know the nature of the samples being imaged beforehand. There is a new class of SEM instrument called ‘environmental SEM’ which has the sample chamber separated by a differential pumping across the different SEM sections. Here, biological samples or wet-samples may also be imaged (which may otherwise lose the water vapor and deform).<br>
-<video width="320" height="240" controls>
-  <source src="images/exp3-conducting_insulating.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video><br>
-Video on Effect of Beam voltage on conducting and insulating samples
+
 
 
  

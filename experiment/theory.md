@@ -11,7 +11,8 @@ Video on Effect of Beam voltage on conducting and insulating samples<br></div> -
 </video><br>Video on Effect of Beam voltage on conducting and insulating samples</div>
 
 </div>
-We can appreciate that that particles (say spherical particles) will only have limited contact area with conducting carbon tape it is sitting on (say point contact), and even after gold coating, the shadow effect during sputtering may not cover the bottom region of the particle, and may not provide complete conductivity path. In that case, the particles may not be able to dissipate the charge and will show sample charging.
+<div style="content: '.';clear: both;display: block;height: 0;visibility: hidden;"></div>
+<div style ="text-align: justify;text-justify: inter-word;"> We can appreciate that that particles (say spherical particles) will only have limited contact area with conducting carbon tape it is sitting on (say point contact), and even after gold coating, the shadow effect during sputtering may not cover the bottom region of the particle, and may not provide complete conductivity path. In that case, the particles may not be able to dissipate the charge and will show sample charging.
 <br><br>
 
 <img src="images/f1.jpg" height="500px" width="700px"><br>
@@ -40,7 +41,7 @@ Figure 3: a) Image of uncoated insulating samples showing charging on the surfac
 <br>
 
 ### Note:
-Biological samples and polymeric samples may undergo beam damage during imaging. Sample burning or evaporation may also occur upon exposure to electron beam. The build-up of volatile gases may also be very deleterious to the instrument itself. Thus, it is advisable to know the nature of the samples being imaged beforehand. There is a new class of SEM instrument called ‘environmental SEM’ which has the sample chamber separated by a differential pumping across the different SEM sections. Here, biological samples or wet-samples may also be imaged (which may otherwise lose the water vapor and deform).<br>
+Biological samples and polymeric samples may undergo beam damage during imaging. Sample burning or evaporation may also occur upon exposure to electron beam. The build-up of volatile gases may also be very deleterious to the instrument itself. Thus, it is advisable to know the nature of the samples being imaged beforehand. There is a new class of SEM instrument called ‘environmental SEM’ which has the sample chamber separated by a differential pumping across the different SEM sections. Here, biological samples or wet-samples may also be imaged (which may otherwise lose the water vapor and deform).<br></div>
 
 
 

@@ -40,7 +40,7 @@ Figure 3: a) Image of uncoated insulating samples showing charging on the surfac
 <br>
 <br>
 
-### Note:
+Note:
 Biological samples and polymeric samples may undergo beam damage during imaging. Sample burning or evaporation may also occur upon exposure to electron beam. The build-up of volatile gases may also be very deleterious to the instrument itself. Thus, it is advisable to know the nature of the samples being imaged beforehand. There is a new class of SEM instrument called ‘environmental SEM’ which has the sample chamber separated by a differential pumping across the different SEM sections. Here, biological samples or wet-samples may also be imaged (which may otherwise lose the water vapor and deform).<br></div>
 
 

@@ -89,7 +89,7 @@
 
 
      const myQuestions = [{
-             question: "1.At which voltage the image of a conducting sample is usually imaged? ", ///// Write the question inside double quotes
+             question: "1. At which voltage the image of a conducting sample is usually imaged? ", ///// Write the question inside double quotes
              answers: {
                  a: "200 V", ///// Write the option 1 inside double quotes
                  b: "440 V", ///// Write the option 2 inside double quotes
@@ -100,7 +100,7 @@
          },
 
          {
-             question: "2.Which of the following samples gets focused even at the higher voltage (kV)?", ///// Write the question inside double quotes
+             question: "2. Which of the following samples gets focused even at the higher voltage (kV)?", ///// Write the question inside double quotes
              answers: {
                  a: "Insulating", ///// Write the option 1 inside double quotes
                  b: "Conducting", ///// Write the option 2 inside double quotes
@@ -125,7 +125,7 @@
 
 
          {
-             question: "4.Which of the following WILL NOT be suitable for imaging samples in SEM?",
+             question: "4. Which of the following WILL NOT be suitable for imaging samples in SEM?",
              answers: {
                  a: "Pt-coating",
                  b: "Gold-coating",
@@ -135,7 +135,7 @@
              correctAnswer: "d"
          },
          {
-             question: "5.Which of the following will NOT matter when imaging insulating samples:",
+             question: "5. Which of the following will NOT matter when imaging insulating samples:",
              answers: {
                  a: "Density of insulating sample",
                  b: "Accelerating voltage being used",

@@ -89,7 +89,7 @@
 
 
     const myQuestions = [{
-            question: "1.Quality of imaging on an insulating sample can be enhanced by:", ///// Write the question inside double quotes
+            question: "1. Quality of imaging on an insulating sample can be enhanced by:", ///// Write the question inside double quotes
             answers: {
                 a: "Increasing the pressure of chamber (lower vacuum)", ///// Write the option 1 inside double quotes
                 b: "Decreasing the pressure of chamber (higher vacuum)", ///// Write the option 2 inside double quotes
@@ -98,7 +98,7 @@
         },
 
         {
-            question: "2.Quality of imaging on an insulating sample will deteriorate when using:", ///// Write the question inside double quotes
+            question: "2. Quality of imaging on an insulating sample will deteriorate when using:", ///// Write the question inside double quotes
             answers: {
                 a: "Low accelerating voltage of electron beam ", ///// Write the option 1 inside double quotes
                 b: "High accelerating voltage of electron beam ", ///// Write the option 2 inside double quotes
@@ -109,7 +109,7 @@
         ///// this line
 
         {
-            question: "3.The beam damage on a polymeric sample will be high at ___________ accelerating voltage and ________ beam size.",
+            question: "3. The beam damage on a polymeric sample will be high at ___________ accelerating voltage and ________ beam size.",
             answers: {
                 a: "low accelerating voltage and smaller spot size",
                 b: "low accelerating voltage and bigger spot size",
@@ -120,7 +120,7 @@
         },
       
         {
-            question: "4.The following image is taken  _______________ conductive coating on the polymeric sample.<img src='images/post6.jpg'>",
+            question: "4. The following image is taken  _______________ conductive coating on the polymeric sample.<img src='images/post6.jpg'>",
             answers: {
                 a: "with",
                 b: "without"

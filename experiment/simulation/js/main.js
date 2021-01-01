@@ -628,6 +628,9 @@ function execute() {
         if (spotsize_range == 3) {
             document.getElementById("image_display").src = "./images/ss1.PNG"
         }
+        if (spotsize_range == 4) {
+            document.getElementById("image_display").src = "./images/ss0.PNG"
+        }
     }
     /////////////////////////////////////////////////////////////
     //////////////////////// Working distance ///////////////////

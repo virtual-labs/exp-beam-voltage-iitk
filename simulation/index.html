@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div id="container_exp" class="container_exp">
+        <!-- <button type="button" id="start" class="btn btn-primary btn-lg btn-block" onclick="start()">
+            <h1>START</h1>
+        </button> -->
+        <div class="container-fluid main-wrapper" id="container">
+            <!-- <div class="row lcontrol">
+                <div class="col">
+                    <div class="panel">
+                        <center>
+                            <!-- <div class="btn-group btn-group-lg align-self-center scenes" role="group"
+                            aria-label="Basic example">
+                            <button type="button" data-scene="1" class="btn btn-primary active">SE Mode</button>
+                            <button type="button" data-scene="2" class="btn btn-primary">BSE Mode</button>
+                        </div> -->
+                        </center>
+                    </div>
+            <div class="row ucontrol">
+                <div class="col-3">
+                    <div class="panel mb-1">
+                        <div class="panel-head">
+                            Instructions
+                        </div>
+                        <div id="type_text">
+                            <p id="demo1"></p>
+                            <p id="demo3"></p>
+                            <p id="demo2"></p>
+                            <p id="demo4"></p>
+                            <p id="demo5"></p>
+                            <p id="demo6"></p>
+                        </div>
+
+                    </div>
+                    <div class="panel padd">
+                        <!-- <div class="but sm w-100 blue">Material</div> <br><br> -->
+                        <!-- <div id="select1">
+                            <button type="button" class="btn btn-success" id="btn1" onclick="clickbtn(1)">Cerammic
+                                </button>
+                            <button type="button" class="btn btn-success" id="btn2" onclick="clickbtn(2)">Polymer
+                                </button>
+                            <button type="button" class="btn btn-success" id="btn3" onclick="clickbtn(3)">Metal
+                                </button>
+                        </div>
+                        <br><br>                        
+                        <div id="select2">
+                            <button class="btn-primary btn" onclick="display(1)" id ="voltage_btn">Voltage</button>
+                            <button class="btn-primary btn" onclick="display(2)" id = "magnification_btn">Magnification</button>
+                            <button class="btn-primary btn" onclick="display(3)" id = "spotsize_btn">Spot Size</button>
+                        </div>
+                        <br><br>
+                        <div id="voltage">
+                        <div class="but sm w-100 blue" id="vol">Voltage</div>
+                        <br><br> -->
+                        <!-- <h2 id="demo"></h2> -->
+                        <!-- <div class="slidercontainer">
+                            <input type="range" min="0" max="4" value="0" class="slider" id="myRange">
+                        </div></div>
+                        <div class="magnification" id="magSection">
+                            <div class="but sm w-100 blue" id="mag">Magnification</div> -->
+                            <!-- <p id="demo2"></p> -->
+                            <!-- <div class="slidercontainer1">
+                                <input type="range" min="0" max="4" value="0" class="slider" id="myMagnification">
+                            </div>
+                        </div>
+                        <div class="spotsize" id="spotSection">
+                            <div class="but sm w-100 blue" id="ss">Spot Size</div>
+                            <p id="demo3"></p>
+                            <div class="slidercontainer2">
+                                <input type="range" min="0" max="2" value="0" class="slider" id="mySpotSize" >
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-success" onclick="voltagefunction()"
+                            id="execute_button">Execute</button> -->
+
+                            <div class="select1">
+                                <div class="button_select">
+                                    <button class="btn btn-primary " onclick="fun1(1)" id="volbtn">Voltage</button>
+                                    <button class="btn btn-primary" onclick="fun1(2)" id="magbtn">Magnification</button>
+                                    <br><br>
+                                    <button class="btn btn-primary" onclick="fun1(3)" id="ssbtn">Spot Size</button>
+                                    <button class="btn btn-primary" onclick="fun1(4)" id="wdbtn">Working distance</button>
+                                </div>
+                                <br>
+                                <div class="voltage" id = "voltage_show">
+                                    <h3 style="font-weight: bold;">Voltage</h3>
+                                    <p id="voltagetext1">5 Kilo Volts</p>
+                                    <input type="range" min="0" max="2" value="0" class="slider" id="voltage_range1" oninput="voltagetext(this.value)">
+                                    <h3 style="font-weight: bold;">Magnification</h3>
+                                    <p id="magnificationtext1">250x</p>
+                                    <input type="range" min="0" max="4" value="0" class="slider" id="magnification_range1" oninput="magnificationtext(this.value)">
+                                </div>
+                                <div class="magnification" id="magnification_show">
+                                    <h3 style="font-weight: bold;">Magnification</h3>
+                                    <p id="magnificationtext2">250x</p>
+                                    <input type="range" min="0" max="5" value="0" class="slider" id="magnification_range2" oninput = "magnificationrange(this.value)">
+                                    <h3 style="font-weight: bold;">Voltage</h3>
+                                    <p id="voltagetext2">5 Kilo Volts</p>
+                                    <input type="range" min="0" max="2" value="0" class="slider" id="voltage_range2" oninput="voltagerange(this.value)">
+                                </div>
+                                <div class="spotsize" id="spotsize_show">
+                                    <h3 style="font-weight: bold;">Spotsize</h3>
+                                    <p id="spotsizetext">151p</p>
+                                    <input type="range" min="0" max="4" value="0" class="slider" id="spotsize_range" oninput="spotsizerange(this.value)">
+                                </div>
+                                <div class="workingdistance" id="workingdistance_show">
+                                    <h3 style="font-weight: bold;">Working Distance</h3>
+                                    <p id="workingdistancetext">12.00mm</p>
+                                    <input type="range" min="0" max="4" value="0" class="slider" id="workingdistance_range" oninput="workingdistancerange(this.value)">
+                                </div>
+                            </div> <br>
+                        <button class="btn-success btn" onclick="execute()" id="exebtn">Execute</button>    
+                        <button onclick="document.location.reload(true)" id="reset_button" class="btn">Reset</button>
+                        <!-- <button class="btn btn-btn-warning" onclick="task()" id="task">Move to Task</button> -->
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="panel">
+                        <img src="./images/sem_machine.png" alt="" id="machine_image">
+                    </div>
+
+                </div>
+                <div class="col-6">
+                    <div class="panel padd" id="1">
+                        <img id="image_display" src="" alt="" style="width: 90%;">
+                    </div>
+            </div>
+
+        </div>
+    <div class="container_task" id="container_task">
+        <div id="container1">
+            <h1>TASK</h1>
+
+            <h2 id="check">
+                Choose the Image for Material 1 at 5kV
+            </h2>
+
+
+            <h3 id="info"> Material 1</h3>
+            <div class="row" style="position: relative;left:13rem">
+                <button class="btn col-3 btn-success" onclick="imgClick(1)" id="validate_button"><img class="img-fluid"
+                        src="./images/5_2.5x.PNG"></button>
+                <button class="btn col-3 btn-success" onclick="imgClick(2)" id="validate_button1"><img class="img-fluid"
+                        src="./images/10_2.5x.PNG"></button>
+                <button class="btn col-3 btn-success" onclick="imgClick(3)" id="validate_button2"><img class="img-fluid"
+                        src="./images/20_2.5x.PNG"></button>
+            </div>
+            <br>
+            <br>
+            <center class="text-center pt-2">
+                <button class="btn btn-success mb-2" onclick="validate()">Validate</button><br>
+                <button id="next_experiment1" class="btn btn-warning" onclick="next(2)"> Next Task</button>
+                <button onclick="document.location.reload(true)" id="reset_button" class="btn">Reset</button>
+            </center>
+        </div>
+        <div class="container2" id="container2">
+            <h1>TASK</h1>
+
+            <h2 id="check">
+                Choose the Image for Material 2 at 10kV.
+            </h2>
+
+
+            <h3 id="info"> Material 2</h3>
+            <div class="row" style="position: relative;left:13rem">
+                <button class="btn col-3 btn-success" onclick="imgClick(4)" id="validate_button"><img class="img-fluid"
+                        src="./images/5_2.5x.PNG"></button>
+                <button class="btn col-3 btn-success" onclick="imgClick(5)" id="validate_button1"><img class="img-fluid"
+                        src="./images/10_2.5x.PNG"></button>
+                <button class="btn col-3 btn-success" onclick="imgClick(6)" id="validate_button2"><img class="img-fluid"
+                        src="./images/20_2.5x.PNG"></button>
+            </div>
+            <br>
+            <br>
+            <center class="text-center pt-2">
+                <button class="btn btn-success mb-2" onclick="validate()">Validate</button><br>
+                <button id="next_experiment2" class="btn btn-warning" onclick="next(3)"> Next Task</button>
+                <button onclick="document.location.reload(true)" id="reset_button" class="btn">Reset</button>
+            </center>
+        </div>
+        <div class="container3" id="container3">
+            <h1>TASK</h1>
+
+            <h2 id="check">
+                Choose the Image for Material 3 at 20kV.
+            </h2>
+            <h3 id="info"> Material 3</h3>
+            <div class="row" style="position: relative;left:13rem">
+                <button class="btn col-3 btn-success" onclick="imgClick(7)" id="validate_button"><img class="img-fluid"
+                        src="./images/5_2.5x.PNG"></button>
+                <button class="btn col-3 btn-success" onclick="imgClick(8)" id="validate_button1"><img class="img-fluid"
+                        src="./images/10_2.5x.PNG"></button>
+                <button class="btn col-3 btn-success" onclick="imgClick(9)" id="validate_button2"><img class="img-fluid"
+                        src="./images/20_2.5x.PNG"></button>
+            </div>
+            <br>
+            <br>
+            <center class="text-center pt-2">
+                <button class="btn btn-success mb-2" onclick="validate()">Validate</button><br>
+                <button onclick="document.location.reload(true)" id="reset_button" class="btn">Reset</button>
+            </center>
+        </div>
+    </div>
+    <div id="toast-wrapper" aria-live="polite" aria-atomic="true" style="position:fixed;bottom:1rem;right:1rem;">
+
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/popper.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script>
+            const typeSpeed = 30;
+            var timerId, typeTarget = $("#typer");
+            function type(txt, cur = 0) {
+                if (cur == txt.length) {
+                    timerId = -1;
+                    return;
+                }
+                if (cur == 0) {
+                    typeTarget.html("");
+                    clearTimeout(timerId);
+                }
+                typeTarget.append(txt.charAt(cur));
+                timerId = setTimeout(type, typeSpeed, txt, cur + 1);
+            }
+        // type("this is test")
+        </script>
+        <script src="./js/main.js"></script>
+<script src="../assets/js/iframeResize.js"></script></body>
+
+</html>

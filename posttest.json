@@ -1,0 +1,31 @@
+[{
+	"question": "1. Quality of imaging on an insulating sample can be enhanced by:",
+	"answers": {
+		"a": "Increasing the pressure of chamber (lower vacuum)",
+		"b": "Decreasing the pressure of chamber (higher vacuum)"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "2. Quality of imaging on an insulating sample will deteriorate when using:",
+	"answers": {
+		"a": "Low accelerating voltage of electron beam ",
+		"b": "High accelerating voltage of electron beam "
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "3. The beam damage on a polymeric sample will be high at ___________ accelerating voltage and ________ beam size.",
+	"answers": {
+		"a": "low accelerating voltage and smaller spot size",
+		"b": "low accelerating voltage and bigger spot size",
+		"c": "high accelerating voltage and smaller spot size",
+		"d": "high accelerating voltage and bigger spot size"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "4. The following image is taken  _______________ conductive coating on the polymeric sample.<img src='images/post6.jpg'>",
+	"answers": {
+		"a": "with",
+		"b": "without"
+	},
+	"correctAnswer": "b"
+}]

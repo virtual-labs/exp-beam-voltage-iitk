@@ -1,0 +1,46 @@
+[{
+	"question": "1. At which voltage the image of a conducting sample is usually imaged? ",
+	"answers": {
+		"a": "200 V",
+		"b": "440 V",
+		"c": "2,000 V",
+		"d": "20,000 V"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "2. Which of the following samples gets focused even at the higher voltage (kV)?",
+	"answers": {
+		"a": "Insulating",
+		"b": "Conducting",
+		"c": "Semiconductor",
+		"d": "Biological"
+	},
+	"correctAnswer": "b"
+}, {
+	"question": "3. _________________ is required for observing insulating samples in SEM?<br>Note: gold coating is also very routinely used.",
+	"answers": {
+		"a": "polymer coating",
+		"b": "ceramic coating",
+		"c": "carbon coating",
+		"d": "washing"
+	},
+	"correctAnswer": "c"
+}, {
+	"question": "4. Which of the following WILL NOT be suitable for imaging samples in SEM?",
+	"answers": {
+		"a": "Pt-coating",
+		"b": "Gold-coating",
+		"c": "Carbon-coating",
+		"d": "SiO<sub>2</sub> coating"
+	},
+	"correctAnswer": "d"
+}, {
+	"question": "5. Which of the following will NOT matter when imaging insulating samples:",
+	"answers": {
+		"a": "Density of insulating sample",
+		"b": "Accelerating voltage being used",
+		"c": "Time-duration being used for imaging",
+		"d": "Level of vacuum being used during imaging"
+	},
+	"correctAnswer": "a"
+}]
